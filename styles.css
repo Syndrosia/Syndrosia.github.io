@@ -15,7 +15,7 @@ body {
 #calcbutton {
   position: absolute;
   height: 4%;
-  width: 12.5%;
+  width: 30%;
   color: white;
   text-align: center;
   left: 50%;
@@ -38,6 +38,8 @@ body {
   color: white;
   text-align: center;
   position: absolute;
+  font-size: 170%;
+  width: 100%;
   left: 50%;
   top: 14%;
   transform: translate(-50%, -160%);
@@ -47,6 +49,7 @@ body {
   color: white;
   text-align: center;
   position: absolute;
+  font-size: 170%;
   left: 50%;
   top: 35%;
   transform: translate(-50%, -160%);
@@ -54,12 +57,12 @@ body {
 
 #Maxlb {
   position: absolute;
-  left: 45%;
+  left: 25%;
   top: 26%;
   transform: translate(-50%, -160%);
   margin: 0;
   height: 4%;
-  width: 2%;
+  width: 9%;
   font-size: 150%;
   text-align: center;
   border-radius: 3px;
@@ -73,7 +76,7 @@ body {
   transform: translate(-50%, -160%);
   margin: 0;
   height: 4%;
-  width: 2%;
+  width: 9%;
   font-size: 150%;
   text-align: center;
   border-radius: 3px;
@@ -82,12 +85,12 @@ body {
 
 #Maxdra {
   position: absolute;
-  left: 55%;
+  left: 75%;
   top: 26%;
   transform: translate(-50%, -160%);
   margin: 0;
   height: 4%;
-  width: 2%;
+  width: 9%;
   font-size: 150%;
   text-align: center;
   border-radius: 3px;
@@ -96,12 +99,12 @@ body {
 
 #Mainlb {
   position: absolute;
-  left: 45%;
+  left: 25%;
   top: 47%;
   transform: translate(-50%, -160%);
   margin: 0;
   height: 4%;
-  width: 2%;
+  width: 9%;
   font-size: 150%;
   text-align: center;
   border-radius: 3px;
@@ -115,7 +118,7 @@ body {
   transform: translate(-50%, -160%);
   margin: 0;
   height: 4%;
-  width: 2%;
+  width: 9%;
   font-size: 150%;
   text-align: center;
   border-radius: 3px;
@@ -124,12 +127,12 @@ body {
 
 #Maindra {
   position: absolute;
-  left: 55%;
+  left: 75%;
   top: 47%;
   transform: translate(-50%, -160%);
   margin: 0;
   height: 4%;
-  width: 2%;
+  width: 9%;
   font-size: 150%;
   text-align: center;
   border-radius: 3px;
@@ -138,7 +141,7 @@ body {
 
 #lbs1 {
   position: absolute;
-  left: 45%;
+  left: 25%;
   top: 39%;
   transform: translate(-50%, -160%);
   font-size: 120%;
@@ -147,7 +150,7 @@ body {
 
 #lbs2 {
   position: absolute;
-  left: 45%;
+  left: 25%;
   top: 18%;
   transform: translate(-50%, -160%);
   font-size: 120%;
@@ -174,7 +177,7 @@ body {
 
 #drams1 {
   position: absolute;
-  left: 55%;
+  left: 75%;
   top: 18%;
   transform: translate(-50%, -160%);
   font-size: 120%;
@@ -183,7 +186,7 @@ body {
 
 #drams2 {
   position: absolute;
-  left: 55%;
+  left: 75%;
   top: 39%;
   transform: translate(-50%, -160%);
   font-size: 120%;
