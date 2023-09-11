@@ -125,74 +125,6 @@ body {
   color: black
 }
 
-#Maindra {
-  position: absolute;
-  left: 75%;
-  top: 47%;
-  transform: translate(-50%, -160%);
-  margin: 0;
-  height: 4%;
-  width: 9%;
-  font-size: 150%;
-  text-align: center;
-  border-radius: 3px;
-  color: black
-}
-
-#lbs1 {
-  position: absolute;
-  left: 25%;
-  top: 39%;
-  transform: translate(-50%, -160%);
-  font-size: 120%;
-  color: white;
-}
-
-#lbs2 {
-  position: absolute;
-  left: 25%;
-  top: 18%;
-  transform: translate(-50%, -160%);
-  font-size: 120%;
-  color: white;
-}
-
-#oz1 {
-  position: absolute;
-  left: 50%;
-  top: 18%;
-  transform: translate(-50%, -160%);
-  font-size: 120%;
-  color: white;
-}
-
-#oz2 {
-  position: absolute;
-  left: 50%;
-  top: 39%;
-  transform: translate(-50%, -160%);
-  font-size: 120%;
-  color: white;
-}
-
-#drams1 {
-  position: absolute;
-  left: 75%;
-  top: 18%;
-  transform: translate(-50%, -160%);
-  font-size: 120%;
-  color: white;
-}
-
-#drams2 {
-  position: absolute;
-  left: 75%;
-  top: 39%;
-  transform: translate(-50%, -160%);
-  font-size: 120%;
-  color: white;
-}
-
 #percTitle {
   color: white;
   position: absolute;
@@ -266,6 +198,74 @@ body {
 }
 
 td {
+  color: white;
+}
+
+#Maindra {
+  position: absolute;
+  left: 75%;
+  top: 47%;
+  transform: translate(-50%, -160%);
+  margin: 0;
+  height: 4%;
+  width: 9%;
+  font-size: 150%;
+  text-align: center;
+  border-radius: 3px;
+  color: black
+}
+
+#lbs1 {
+  position: absolute;
+  left: 25%;
+  top: 39%;
+  transform: translate(-50%, -160%);
+  font-size: 120%;
+  color: white;
+}
+
+#lbs2 {
+  position: absolute;
+  left: 25%;
+  top: 18%;
+  transform: translate(-50%, -160%);
+  font-size: 120%;
+  color: white;
+}
+
+#oz1 {
+  position: absolute;
+  left: 50%;
+  top: 18%;
+  transform: translate(-50%, -160%);
+  font-size: 120%;
+  color: white;
+}
+
+#oz2 {
+  position: absolute;
+  left: 50%;
+  top: 39%;
+  transform: translate(-50%, -160%);
+  font-size: 120%;
+  color: white;
+}
+
+#drams1 {
+  position: absolute;
+  left: 75%;
+  top: 18%;
+  transform: translate(-50%, -160%);
+  font-size: 120%;
+  color: white;
+}
+
+#drams2 {
+  position: absolute;
+  left: 75%;
+  top: 39%;
+  transform: translate(-50%, -160%);
+  font-size: 120%;
   color: white;
 }
 
