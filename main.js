@@ -13,8 +13,8 @@ function calc() {
    Mainoz = document.getElementById("Mainoz").value;
    Maindra = document.getElementById("Maindra").value; 
 
-   let x = (Maxlb * 256) + (Maxoz * 16) + (Maxdra);
-   let y = (Mainlb * 256) + (Mainoz * 16) + (Maindra);
+   let x = (Maxlb * 25600) + (Maxoz * 1600) + (Maxdra * 100);
+   let y = (Mainlb * 25600) + (Mainoz * 1600) + (Maindra * 100);
    let z = ((y/x) * 100).toFixed(1)
 
    document.getElementById("perc").innerHTML = z + "%"
