@@ -7,9 +7,9 @@ body {
   color: white;
   text-align: center;
   left: 50%;
-  top: 64%;
+  top: 65%;
   transform: translate(-50%, -160%);
-  font-size: 250%;
+  font-size: 320%;
 }
 
 #calcbutton {
@@ -190,6 +190,127 @@ body {
   top: 39%;
   transform: translate(-50%, -160%);
   font-size: 120%;
+  color: white;
+}
+
+#percTitle {
+  color: white;
+  position: absolute;
+  left: 80%;
+  top: 76%;
+  transform: translate(-50%, -160%);
+  font-size: 110%;
+}
+
+#fishTitle {
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 76%;
+  transform: translate(-50%, -160%);
+  font-size: 110%;
+}
+
+#prevTitle {
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 71%;
+  transform: translate(-50%, -160%);
+  font-size: 140%;
+}
+
+/* #hr2 {
+  color: white;
+  position: absolute;
+  width: 85%;
+  left: 50%;
+  top: 77.1%;
+  transform: translate(-50%, -160%);
+} */
+
+/* #hr3 {
+  color: white;
+  position: absolute;
+  width: 85%;
+  left: 50%;
+  top: 82.0%;
+  transform: translate(-50%, -160%);
+}
+
+#hr4 {
+  color: white;
+  position: absolute;
+  width: 85%;
+  left: 50%;
+  top: 86.9%;
+  transform: translate(-50%, -160%);
+}
+
+#hr5 {
+  color: white;
+  position: absolute;
+  width: 85%;
+  left: 50%;
+  top: 91.8%;
+  transform: translate(-50%, -160%);
+}
+
+#hr6 {
+  color: white;
+  position: absolute;
+  width: 85%;
+  left: 50%;
+  top: 96.7%;
+  transform: translate(-50%, -160%);
+} */
+
+#hr1 {
+  color: white;
+  position: absolute;
+  width: 85%;
+  left: 50%;
+  top: 71.9%;
+  transform: translate(-50%, -160%);
+}
+
+#specimenTitle {
+  color: white;
+  position: absolute;
+  left: 20%;
+  top: 76%;
+  transform: translate(-50%, -160%);
+  font-size: 110%;
+}
+
+#tal1 {
+  display: block;
+  color: white;
+  position: absolute;
+  left: 15%;
+  top: 77.7%;
+  font-size: 110%;
+}
+
+#tal2 {
+  display: block;
+  color: white;
+  position: absolute;
+  left: 45%;
+  top: 77.7%;
+  font-size: 110%;
+}
+
+#tal3 {
+  display: block;
+  color: white;
+  position: absolute;
+  left: 73%;
+  top: 77.7%;
+  font-size: 110%;
+}
+
+td {
   color: white;
 }
 
