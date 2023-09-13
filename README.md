@@ -8,7 +8,7 @@ Simple specimen calculator
 5) Outputs %, fish weight and specimen weight to history table
 
 DISCLAIMER:
- >> Accurate to 5 decimal places and TRUNCATED using .toFixed (DOES NOT ROUND UP OR DOWN IT TRUNCATES PERCENTAGE)
+ > Accurate to 5 decimal places and TRUNCATED using .toFixed (DOES NOT ROUND UP OR DOWN IT TRUNCATES PERCENTAGE)
 
 Usage:
- >> Free to use for all users and organizations, Free to distribute, Free to edit
+ > Free to use for all users and organizations, Free to distribute, Free to edit
