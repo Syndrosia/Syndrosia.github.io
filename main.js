@@ -1,28 +1,23 @@
-let Maxlb = 0;
-let Maxoz = 0;
-let Maxdra = 0;
-let Mainlb = 0;
-let Mainoz = 0;
-let Maindra = 0;
+let Maxlb, Maxoz, Maxdra, Mainlb, Mainoz, Maindra = 0;
 
 function print(a) {
    console.log(a);
 }
 
 function calc() {
-   Maxlb = document.getElementById("Maxlb").value;
-   Maxoz = document.getElementById("Maxoz").value;
-   Maxdra = document.getElementById("Maxdra").value;
-   Mainlb = document.getElementById("Mainlb").value;
-   Mainoz = document.getElementById("Mainoz").value;
-   Maindra = document.getElementById("Maindra").value; 
+   Maxlb = document.getElementById("Maxlb").value || 0;
+   Maxoz = document.getElementById("Maxoz").value || 0;
+   Maxdra = document.getElementById("Maxdra").value || 0;
+   Mainlb = document.getElementById("Mainlb").value || 0;
+   Mainoz = document.getElementById("Mainoz").value || 0;
+   Maindra = document.getElementById("Maindra").value || 0; 
 
-   let x = (Maxlb * 25600) + (Maxoz * 1600) + (Maxdra * 100);
-   let y = (Mainlb * 25600) + (Mainoz * 1600) + (Maindra * 100);
+   let x = (Maxlb * 25600000) + (Maxoz * 1600000) + (Maxdra * 100000);
+   let y = (Mainlb * 25600000) + (Mainoz * 1600000) + (Maindra * 100000);
    let z = ((y/x) * 100).toFixed(1);
 
    document.getElementById("perc").innerHTML = z + "%";
-   
+
    let row = document.getElementById("tal1").insertRow(0);
    let Amax = row.insertCell(0);
    let row2 = document.getElementById("tal2").insertRow(0);
@@ -34,9 +29,7 @@ function calc() {
    Amain.innerHTML = String(Mainlb) + ":" + String(Mainoz) + ":" + String(Maindra);
    Aperc.innerHTML = String(z) + "%";
 
-   x = 0;
-   y = 0;
-   z = 0;
+   x, y, z = 0, 0, 0;
 
    document.getElementById("Maxlb").value = "";
    document.getElementById("Maxoz").value = "";
