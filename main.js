@@ -14,7 +14,7 @@ function calc() {
 
    let x = (Maxlb * 25600000) + (Maxoz * 1600000) + (Maxdra * 100000);
    let y = (Mainlb * 25600000) + (Mainoz * 1600000) + (Maindra * 100000);
-   let z = ((y/x) * 100).toFixed(1);
+   let z = ((y/x) * 100).toFixed(2);
 
    document.getElementById("perc").innerHTML = z + "%";
 
